@@ -4,9 +4,10 @@ Version: 0.1.0
 Authors@R:
     person("Vladimer", "Kobayashi",
            email = "vladimer.kobayashi@gmail.com",
-           role = c("aut", "cre"))
+           role = c("aut", "cre"),
+           comment=c(ORCID ="https://orcid.org/0000-0001-9285-9274"))
 Description: Tools for calculating commerce metrics, pairing treatment and
-    control results from multiple experiments, estimating incremental effects,
+    control results from A/B testing experiments, estimating incremental effects,
     and quantifying uncertainty with Student's t and nonparametric bootstrap
     confidence intervals. Includes validation helpers, a high-level analysis
     workflow, and compatibility functions for the original package interface.
@@ -24,4 +25,4 @@ VignetteBuilder: knitr
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+Config/roxygen2/version: 8.0.0

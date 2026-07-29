@@ -3,7 +3,7 @@ test_that("t interval agrees with stats t.test", {
   result <- t_confidence_interval(x)
   expected <- t.test(x)$conf.int
   expect_equal(result$mean, mean(x))
-  expect_equal(c(result$lower, result$upper), unname(expected))
+  expect_equal(c(result$lower, result$upper), as.numeric(expected))
 })
 
 test_that("t interval validates its arguments", {
@@ -28,5 +28,5 @@ test_that("bootstrap is reproducible and preserves caller RNG state", {
 test_that("legacy t interval uses alpha", {
   data <- data.frame(id = 1:5, difference = c(0.4, 0.8, 0.1, 0.6, 0.9))
   result <- t_test_cf(data, 0.05)
-  expect_equal(result$confidence_interval, unname(t.test(data$difference)$conf.int))
+  expect_equal(result$confidence_interval, as.numeric(t.test(data$difference)$conf.int))
 })
