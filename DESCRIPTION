@@ -1,6 +1,6 @@
 Package: IncrementalityTEST
 Title: Analyze Incrementality Experiments
-Version: 0.1.0
+Version: 0.1.1
 Authors@R:
     person("Vladimer", "Kobayashi",
            email = "vladimer.kobayashi@gmail.com",
@@ -11,7 +11,7 @@ Description: Tools for calculating commerce metrics, pairing treatment and
     and quantifying uncertainty with Student's t and nonparametric bootstrap
     confidence intervals. Includes validation helpers, a high-level analysis
     workflow, and compatibility functions for the original package interface.
-License: Apache-2.0
+License: Apache License (>= 2)
 URL: https://github.com/vkobayashi/IncrementalityTEST
 BugReports: https://github.com/vkobayashi/IncrementalityTEST/issues
 Depends:
