@@ -11,7 +11,7 @@ Description: Tools for calculating commerce metrics, pairing treatment and
     and quantifying uncertainty with Student's t and nonparametric bootstrap
     confidence intervals. Includes validation helpers, a high-level analysis
     workflow, and compatibility functions for the original package interface.
-License: file LICENSE
+License: Apache-2.0
 URL: https://github.com/vkobayashi/IncrementalityTEST
 BugReports: https://github.com/vkobayashi/IncrementalityTEST/issues
 Depends:
